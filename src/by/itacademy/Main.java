@@ -26,7 +26,7 @@ public class Main {
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         } finally {
-            System.out.println("finally");
+            System.out.println("Finally always run");
         }
     }
 }
